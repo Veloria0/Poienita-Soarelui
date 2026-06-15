@@ -1,10 +1,16 @@
-Kostenlose Veröffentlichung:
-1. Entpacke diese ZIP-Datei.
-2. Ersetze in index.html:
-   - https://www.paypal.me/DEINNAME durch deinen PayPal.me-Link
-   - https://wa.me/40700000000 durch deine WhatsApp-Nummer
-   - deine-email@example.com durch deine E-Mail-Adresse
-3. Ersetze die Foto-Platzhalter oder den Hintergrund in style.css durch eigene Bilder.
-4. Lade den Ordner kostenlos bei Netlify Drop, GitHub Pages oder Cloudflare Pages hoch.
+Cabana Hamba Website
 
-Hinweis: PayPal.me ist für einfache Anzahlungen geeignet. Für echte Shop-/Buchungsfunktionen brauchst du ggf. ein PayPal Business-Konto und ggf. Buchungssoftware.
+Hochladen auf GitHub Pages:
+1. ZIP entpacken.
+2. In GitHub Repository die Dateien hochladen:
+   index.html, style.css, script.js und den Ordner assets.
+3. Commit changes klicken.
+4. Settings > Pages > Deploy from a branch > main / root > Save.
+5. Nach 1-5 Minuten ist die Seite online.
+
+Kontakt eingebaut:
+Telefon / WhatsApp: +40 744 593 504
+E-Mail: maziluciprian@yahoo.com
+
+PayPal ist NICHT eingebaut.
+Sprachauswahl ist oben rechts: RO | EN | DE.
