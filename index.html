@@ -1,118 +1,23 @@
-<!DOCTYPE html>
-<html lang="ro">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Cabana Hamba – Sibiu</title>
-  <meta name="description" content="Cabana Hamba în apropiere de Sibiu: piscină încălzită, ciubăr, Wi‑Fi gratuit, șemineu, bucătărie complet utilată și aventuri ATV." />
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <header class="topbar">
-    <a class="brand" href="#home">Cabana Hamba</a>
-    <nav>
-      <a href="#gallery" data-i18n="navGallery">Galerie</a>
-      <a href="#facilities" data-i18n="navFacilities">Facilități</a>
-      <a href="#activities" data-i18n="navActivities">Activități</a>
-      <a href="#contact" data-i18n="navContact">Contact</a>
-    </nav>
-    <div class="lang-switch" aria-label="Language switcher">
-      <button data-lang="ro" class="active">🇷🇴 RO</button>
-      <button data-lang="en">🇬🇧 EN</button>
-      <button data-lang="de">🇩🇪 DE</button>
-    </div>
-  </header>
-
-  <main id="home">
-    <section class="hero">
-      <div class="hero-overlay">
-        <h1 data-i18n="heroTitle">Cabana Hamba – Sibiu</h1>
-        <p data-i18n="heroSubtitle">Piscină încălzită • Ciubăr • Wi‑Fi gratuit • Natură și relaxare</p>
-        <div class="hero-actions">
-          <a class="btn primary" href="https://wa.me/40744593504" data-i18n="bookWhatsApp">Rezervă pe WhatsApp</a>
-          <a class="btn" href="tel:+40744593504" data-i18n="callNow">Sună acum</a>
-        </div>
-      </div>
-    </section>
-
-    <section class="intro card">
-      <h2 data-i18n="introTitle">Locul ideal pentru familie și prieteni</h2>
-      <p data-i18n="introText">Cabana Hamba oferă confort, intimitate și relaxare lângă Sibiu, cu piscină încălzită, ciubăr, șemineu, living spațios, bucătărie complet utilată și internet de mare viteză.</p>
-      <div class="quick">
-        <span>🏊 <b data-i18n="quickPool">Piscină încălzită</b></span>
-        <span>🛁 <b data-i18n="quickTub">Ciubăr</b></span>
-        <span>📶 <b data-i18n="quickWifi">Wi‑Fi gratuit</b></span>
-        <span>👨‍👩‍👧‍👦 <b data-i18n="quickGuests">Până la 10 persoane</b></span>
-      </div>
-    </section>
-
-    <section id="gallery">
-      <h2 data-i18n="galleryTitle">Galerie foto</h2>
-      <div class="gallery">
-        <figure><img src="assets/hero-pool.jpg" alt="Pool și Cabana"><figcaption data-i18n="imgPool">Piscină & Cabana</figcaption></figure>
-        <figure><img src="assets/cabana-exterior.jpg" alt="Cabana exterior"><figcaption data-i18n="imgExterior">Exterior cabană</figcaption></figure>
-        <figure><img src="assets/living-room.jpg" alt="Sufragerie"><figcaption data-i18n="imgLiving">Sufragerie spațioasă</figcaption></figure>
-        <figure><img src="assets/fireplace.jpg" alt="Șemineu"><figcaption data-i18n="imgFireplace">Șemineu</figcaption></figure>
-        <figure><img src="assets/bedrooms.jpg" alt="Dormitoare"><figcaption data-i18n="imgBedrooms">Dormitoare confortabile</figcaption></figure>
-        <figure><img src="assets/kitchen.jpg" alt="Bucătărie"><figcaption data-i18n="imgKitchen">Bucătărie complet utilată</figcaption></figure>
-        <figure><img src="assets/hot-tub.jpg" alt="Ciubăr"><figcaption data-i18n="imgTub">Ciubăr exterior</figcaption></figure>
-        <figure><img src="assets/atv.jpg" alt="ATV"><figcaption data-i18n="imgAtv">Aventuri ATV</figcaption></figure>
-      </div>
-    </section>
-
-    <section id="facilities" class="card">
-      <h2 data-i18n="facilitiesTitle">Facilități</h2>
-      <div class="features">
-        <div>🏊 <span data-i18n="f1">Piscină încălzită</span></div>
-        <div>🛁 <span data-i18n="f2">Ciubăr încălzit</span></div>
-        <div>📶 <span data-i18n="f3">Wi‑Fi gratuit și internet de mare viteză</span></div>
-        <div>🔥 <span data-i18n="f4">Șemineu în living</span></div>
-        <div>🍽️ <span data-i18n="f5">Bucătărie complet utilată</span></div>
-        <div>🍖 <span data-i18n="f6">Foișor și grătar</span></div>
-        <div>🚗 <span data-i18n="f7">Parcare gratuită</span></div>
-        <div>🌲 <span data-i18n="f8">Locație liniștită lângă pădure</span></div>
-        <div>👨‍👩‍👧‍👦 <span data-i18n="f9">Capacitate până la 10 persoane</span></div>
-      </div>
-    </section>
-
-    <section id="activities" class="split">
-      <div class="card">
-        <h2 data-i18n="activitiesTitle">Activități & aventură</h2>
-        <p data-i18n="activitiesText">Zona oferă trasee frumoase prin natură, plimbări, relaxare și aventuri cu ATV-ul în împrejurimile Hamba.</p>
-      </div>
-      <div class="card">
-        <h2 data-i18n="routeTitle">Drumul Hamba → Poienița</h2>
-        <p data-i18n="routeText">Pentru orientare, recomandăm folosirea Google Maps sau Waze înainte de plecare. Traseul este potrivit pentru plimbări și experiențe în natură.</p>
-      </div>
-    </section>
-
-    <section class="route-gallery">
-      <img src="assets/route-map.png" alt="Hartă Hamba Poienița" onerror="this.style.display='none'">
-      <img src="assets/route-original.jpg" alt="Drum Hamba Poienița">
-    </section>
-
-    <section class="card">
-      <h2 data-i18n="rulesTitle">Check‑in / Check‑out</h2>
-      <p><b data-i18n="checkinLabel">Check‑in:</b> 15:00</p>
-      <p><b data-i18n="checkoutLabel">Check‑out:</b> 11:00</p>
-      <p data-i18n="minStay">Sejur minim: 2 nopți.</p>
-    </section>
-
-    <section id="contact" class="contact">
-      <h2 data-i18n="contactTitle">Contact & rezervare</h2>
-      <p data-i18n="contactText">Pentru disponibilitate și rezervări, contactează-ne direct:</p>
-      <div class="contact-grid">
-        <a class="contact-btn" href="tel:+40744593504">📞 +40 744 593 504</a>
-        <a class="contact-btn" href="mailto:maziluciprian@yahoo.com">📧 maziluciprian@yahoo.com</a>
-        <a class="contact-btn whatsapp" href="https://wa.me/40744593504">💬 WhatsApp</a>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <p>© Cabana Hamba – Sibiu</p>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
-</html>
+<!DOCTYPE html><html lang="ro"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Cabana Hamba</title><link rel="stylesheet" href="style.css?v=4"></head><body>
+<header><b>Cabana Hamba</b><nav><a data-i18n="navGallery" href="#gallery">Galerie</a><a data-i18n="navFacilities" href="#facilities">Facilități</a><a data-i18n="navActivities" href="#activities">Activități</a><a data-i18n="navContact" href="#contact">Contact</a></nav><div class="lang"><button data-lang="ro">🇷🇴 RO</button><button data-lang="en">🇬🇧 EN</button><button data-lang="de">🇩🇪 DE</button></div></header>
+<section class="hero"><div><h1 data-i18n="heroTitle">Cabana Hamba – Sibiu</h1><p data-i18n="heroSubtitle">Piscină încălzită • Ciubăr • Wi‑Fi gratuit • Natură și relaxare</p><a class="btn" href="https://wa.me/40744593504" data-i18n="whatsapp">Rezervă pe WhatsApp</a></div></section>
+<main>
+<section class="card"><h2 data-i18n="introTitle">Locul ideal pentru familie și prieteni</h2><p data-i18n="introText">Cabana Hamba oferă confort, intimitate și relaxare lângă Sibiu, cu piscină încălzită, ciubăr, șemineu, living spațios, bucătărie complet utilată și internet de mare viteză.</p></section>
+<section id="gallery"><h2 data-i18n="galleryTitle">Galerie foto</h2><div class="gallery">
+<figure><img src="assets/hero-pool.jpg"><figcaption data-i18n="g1">Piscină & Cabana</figcaption></figure>
+<figure><img src="assets/cabana-exterior.jpg"><figcaption data-i18n="g2">Exterior cabană</figcaption></figure>
+<figure><img src="assets/living-room.jpg"><figcaption data-i18n="g3">Sufragerie spațioasă</figcaption></figure>
+<figure><img src="assets/fireplace.jpg"><figcaption data-i18n="g4">Șemineu</figcaption></figure>
+<figure><img src="assets/bedrooms.jpg"><figcaption data-i18n="g5">Dormitoare confortabile</figcaption></figure>
+<figure><img src="assets/kitchen.jpg"><figcaption data-i18n="g6">Bucătărie complet utilată</figcaption></figure>
+<figure><img src="assets/hot-tub.jpg"><figcaption data-i18n="g7">Ciubăr exterior</figcaption></figure>
+<figure><img src="assets/atv.jpg"><figcaption data-i18n="g8">Aventuri ATV</figcaption></figure>
+</div></section>
+<section id="facilities" class="card"><h2 data-i18n="facilitiesTitle">Facilități</h2><div class="features">
+<div data-i18n="f1">🏊 Piscină încălzită</div><div data-i18n="f2">🛁 Ciubăr încălzit</div><div data-i18n="f3">📶 Wi‑Fi gratuit și internet de mare viteză</div><div data-i18n="f4">🔥 Șemineu în living</div><div data-i18n="f5">🍽️ Bucătărie complet utilată</div><div data-i18n="f6">🍖 Foișor și grătar</div><div data-i18n="f7">🚗 Parcare gratuită</div><div data-i18n="f8">🌲 Locație liniștită lângă pădure</div><div data-i18n="f9">👨‍👩‍👧‍👦 Capacitate până la 10 persoane</div>
+</div></section>
+<section id="activities" class="card"><h2 data-i18n="activitiesTitle">Activități & aventură</h2><p data-i18n="activitiesText">Zona oferă trasee frumoase prin natură, plimbări, relaxare și aventuri cu ATV-ul în împrejurimile Hamba.</p></section>
+<section class="route"><img src="assets/route-map.png" onerror="this.style.display='none'"><img src="assets/route-original.jpg"></section>
+<section class="card"><h2 data-i18n="rulesTitle">Check-in / Check-out</h2><p><b data-i18n="checkin">Check-in:</b> 15:00</p><p><b data-i18n="checkout">Check-out:</b> 11:00</p><p data-i18n="minStay">Sejur minim: 2 nopți.</p></section>
+<section id="contact" class="contact"><h2 data-i18n="contactTitle">Contact & rezervare</h2><p data-i18n="contactText">Pentru disponibilitate și rezervări, contactează-ne direct:</p><a href="tel:+40744593504">📞 +40 744 593 504</a><a href="mailto:maziluciprian@yahoo.com">📧 maziluciprian@yahoo.com</a><a href="https://wa.me/40744593504">💬 WhatsApp</a></section>
+</main><footer>© Cabana Hamba – Sibiu</footer><script src="script.js?v=4"></script></body></html>
