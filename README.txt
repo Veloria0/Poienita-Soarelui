@@ -1,12 +1,9 @@
-Diese Version hat echte Sprachauswahl oben rechts.
+Diese ZIP enthält die aktuelle index.html mit eingefügtem Preisbereich.
 
-Wichtig:
+Hochladen:
 1. ZIP entpacken.
-2. In GitHub NICHT die ZIP hochladen.
-3. Vorhandene Dateien ersetzen:
-   index.html
-   style.css
-   script.js
-   Ordner assets
-4. Die alte Datei cabana-hamba-final...zip im Repository löschen.
-5. Commit changes klicken.
+2. In GitHub die alte index.html durch diese neue index.html ersetzen.
+3. Commit changes klicken.
+4. Seite öffnen mit ?v=preise
+
+Preise sind aktuell als 'Preis auf Anfrage' eingetragen.
