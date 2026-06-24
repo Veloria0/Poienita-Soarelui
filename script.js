@@ -4,7 +4,7 @@
 const T = {
   ro: {
     navGallery:"Galerie", navFacilities:"Facilități", navActivities:"Activități", navContact:"Contact",
-    heroTitle:"Cabana Hamba – Sibiu",
+    heroTitle:"Poienița Soarelui – Hamba, Sibiu",
     heroSubtitle:"Piscină încălzită • Ciubăr • Wi‑Fi gratuit • Natură și relaxare",
     whatsapp:"Rezervă pe WhatsApp",
     introTitle:"Locul ideal pentru familie și prieteni",
@@ -23,7 +23,7 @@ const T = {
   },
   en: {
     navGallery:"Gallery", navFacilities:"Facilities", navActivities:"Activities", navContact:"Contact",
-    heroTitle:"Cabana Hamba – Sibiu",
+    heroTitle:"Poienița Soarelui – Hamba, Sibiu",
     heroSubtitle:"Heated pool • Hot tub • Free Wi‑Fi • Nature & relaxation",
     whatsapp:"Book via WhatsApp",
     introTitle:"The perfect place for family and friends",
