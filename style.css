@@ -26,7 +26,6 @@ body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f7f2ea;color:#2
     border-radius:10px;
 }
 
-
 .calendar-wrapper{
   width:100%;
   overflow:hidden;
@@ -38,4 +37,7 @@ body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f7f2ea;color:#2
   width:100%;
   min-height:650px;
   border:0;
+}
+@media(max-width:760px){
+  .calendar-wrapper iframe{min-height:520px;}
 }
