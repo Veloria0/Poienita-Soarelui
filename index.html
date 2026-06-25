@@ -20,7 +20,7 @@
 </style>
 
 </head><body>
-<header><b>Cabana Hamba</b><nav><a data-i18n="navGallery" href="#gallery">Galerie</a><a data-i18n="navFacilities" href="#facilities">Facilități</a><a data-i18n="navActivities" href="#activities">Activități</a><a data-i18n="navCalendar" href="#calendar">Calendar</a><a data-i18n="navContact" href="#contact">Contact</a></nav><div class="lang"><button data-lang="ro">🇷🇴 RO</button><button data-lang="en">🇬🇧 EN</button><button data-lang="de">🇩🇪 DE</button></div></header>
+<header><b>Cabana Hamba</b><nav><a data-i18n="navGallery" href="#gallery">Galerie</a><a data-i18n="navFacilities" href="#facilities">Facilități</a><a data-i18n="navActivities" href="#activities">Activități</a><a href="#calendar">Calendar</a><a data-i18n="navContact" href="#contact">Contact</a></nav><div class="lang"><button data-lang="ro">🇷🇴 RO</button><button data-lang="en">🇬🇧 EN</button><button data-lang="de">🇩🇪 DE</button></div></header>
 <section class="hero"><div><h1 data-i18n="heroTitle">Cabana Hamba – Sibiu</h1><p data-i18n="heroSubtitle">Piscină încălzită • Ciubăr • Wi‑Fi gratuit • Natură și relaxare</p><a class="btn" href="https://wa.me/40744593504" data-i18n="whatsapp">Rezervă pe WhatsApp</a></div></section>
 <main>
 <section class="card"><h2 data-i18n="introTitle">Locul ideal pentru familie și prieteni</h2><p data-i18n="introText">Cabana Hamba oferă confort, intimitate și relaxare lângă Sibiu, cu piscină încălzită, ciubăr, șemineu, living spațios, bucătărie complet utilată și internet de mare viteză.</p></section>
@@ -42,8 +42,12 @@
 <section class="card"><h2 data-i18n="rulesTitle">Check-in / Check-out</h2><p><b data-i18n="checkin">Check-in:</b> 15:00</p><p><b data-i18n="checkout">Check-out:</b> 11:00</p><p data-i18n="minStay">Sejur minim: 2 nopți.</p></section>
 
 <section id="calendar" class="card">
-<h2 data-i18n="calendarTitle">Calendar disponibilitate</h2>
-<p data-i18n="calendarText">Verifică rapid perioadele ocupate și libere.</p>
+<h2>Calendar disponibilitate / Availability calendar / Verfügbarkeitskalender</h2>
+<p>
+<strong>RO:</strong> Verifică rapid perioadele ocupate și libere.<br>
+<strong>EN:</strong> Quickly check booked and available dates.<br>
+<strong>DE:</strong> Prüfe schnell belegte und freie Termine.
+</p>
 <div class="calendar-wrapper">
 <iframe src="https://calendar.google.com/calendar/embed?src=104c96f9235f1b1cd6613fd85fffd85c7b160edade5811dea3d9844e6ad85a69%40group.calendar.google.com&ctz=Europe%2FBerlin" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 </div>
@@ -63,46 +67,4 @@ document.querySelectorAll('.gallery img').forEach(img => {
     });
 });
 </script>
-
-<script>
-(function(){
-const calendarTranslations = {
-  ro: {
-    navCalendar: "Calendar",
-    calendarTitle: "Calendar disponibilitate",
-    calendarText: "Verifică rapid perioadele ocupate și libere."
-  },
-  en: {
-    navCalendar: "Calendar",
-    calendarTitle: "Availability calendar",
-    calendarText: "Quickly check booked and available dates."
-  },
-  de: {
-    navCalendar: "Kalender",
-    calendarTitle: "Verfügbarkeitskalender",
-    calendarText: "Prüfe schnell belegte und freie Termine."
-  }
-};
-
-function applyCalendarLanguage(lang){
-  const d = calendarTranslations[lang] || calendarTranslations.ro;
-  document.querySelectorAll("[data-i18n]").forEach(el => {
-    const key = el.getAttribute("data-i18n");
-    if (d[key]) el.textContent = d[key];
-  });
-}
-
-document.addEventListener("DOMContentLoaded", function(){
-  const initialLang = localStorage.getItem("cabanaLang") || document.documentElement.lang || "ro";
-  applyCalendarLanguage(initialLang);
-
-  document.querySelectorAll("[data-lang]").forEach(btn => {
-    btn.addEventListener("click", function(){
-      setTimeout(() => applyCalendarLanguage(btn.dataset.lang), 100);
-    });
-  });
-});
-})();
-</script>
-
 </body></html>
